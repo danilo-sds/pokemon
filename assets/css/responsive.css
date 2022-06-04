@@ -1,0 +1,106 @@
+@media screen and (max-width: 376px) {
+    header {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    nav {
+        margin-top: 7px;
+    }
+    nav ul li {
+        margin-right: 15px;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .container-information-title {
+        margin-left: 10px;
+        height: 100%;
+    }
+    .information {
+        margin: 18px 0 40px 0;
+    }
+    .btn {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        width: 70%;
+    }
+    .img-main img {
+        display: none;
+    }
+    /*Responsive page Pokemons*/
+    .title-page-pokemons {
+        margin: 50px auto 0 auto;
+    }
+    .search {
+        width: 90%;
+    }
+    .box-filters {
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;
+    }
+    .container-pokemons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 20px 0;
+    }
+    .box-pokemons {
+        margin: 0 5px 5px 0;
+    }
+    .box-pokemons:nth-child(even) {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .container-information-title {
+        margin-top: 20px;
+    }
+    .btn {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        width: 70%;
+    }
+    .img-main img {
+        display: none;
+    }
+    header {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    nav ul li {
+        margin-right: 15px;
+    }
+    .box-filters {
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;
+    }
+    .container-pokemons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 20px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .img-main img {
+        width: 100%;
+        height: auto;
+    }
+    .container-information-title {
+        margin-left: 10px;
+        height: 100%;
+    }
+}
