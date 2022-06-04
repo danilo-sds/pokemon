@@ -1,0 +1,92 @@
+body {
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    padding: 14px 0 19px 0;
+    box-shadow: 0px 2px 5px rgba(1, 28, 64, 0.2);
+}
+
+.logo {
+    width: 159px;
+    height: 60px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 105px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    font-size: 2.5rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav ul li a:hover {
+    font-size: 2.5rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    max-width: 454px;
+}
+
+.title h1 {
+    font-size: 5.4rem;
+    display: inline-block;
+    line-height: 76px;
+    font-weight: 800;
+    color: #282828;
+}
+
+.color-bacground-title {
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(bottom, #FFCE4B, #FFCE4B 50%, transparent 50%, transparent 100%);
+    background-image: -webkit-linear-gradient(bottom, #FFCE4B, #FFCE4B 50%, transparent 50%, transparent 100%)
+}
+
+.information {
+    max-width: 427px;
+    margin: 18px 0 43px 0;
+    display: block;
+}
+
+.information p {
+    font-size: 1.6rem;
+    line-height: 36px;
+    color: #282828;
+}
+
+.btn {
+    background-color: #48D0B0;
+    padding: 18px 27px 24px 26px;
+    border-radius: 11px;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.18);
+    color: #fff;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.img-main img {
+    width: 558.77px;
+    height: 558.68px;
+}
