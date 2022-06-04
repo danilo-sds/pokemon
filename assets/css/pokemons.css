@@ -1,0 +1,447 @@
+.title-page-pokemons {
+    margin: 73px auto 0 auto;
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 400;
+    color: #171414;
+    max-width: 1104px;
+    display: block;
+}
+
+.search {
+    width: 60%;
+    margin: 33px auto 36px auto;
+    display: block;
+    border-radius: 40px;
+    padding: 16px 0 15px 31px;
+    font-size: 1.6rem;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(33, 33, 33, 0.8);
+    border: 1px solid #F1F1F1;
+    box-shadow: 4px 4px 16px rgba(1, 28, 64, 0.1);
+    outline: none;
+}
+
+.icon-search {
+    padding-right: 55px;
+    background: url('/assets/img/icons/magnifying-glass-solid.svg') no-repeat right;
+    background-size: 20px;
+}
+
+.box-filters {
+    margin-left: 207px;
+}
+
+.container-pokemons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 54px 12%;
+}
+
+.box-pokemons {
+    border-radius: 15px;
+    width: 162px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 11px 18px 0;
+}
+
+.box-pokemons p,
+h3 {
+    color: rgba(255, 255, 255, 1);
+}
+
+.box-pokemons p {
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 4.62px 5.28px;
+    border-radius: 38px;
+    text-align: center;
+}
+
+.box-two-power {
+    margin: 23.75px 0 24.75px 16.70px;
+}
+
+.box-pokemons h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.bulbasaur p {
+    background-color: #5DDFC6;
+}
+
+.box-pokemons .space-type-power {
+    margin: 9.91px 0 5.95px 0;
+}
+
+.bulbasaur {
+    background: linear-gradient(8.46deg, #46A487 -0.58%, #46D7AB 108.38%);
+}
+
+.number-position {
+    color: rgba(62, 133, 112, 1);
+    text-align: center;
+    display: block;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 16.85px;
+}
+
+.img-information-pokemons img {
+    display: block;
+    width: 79.43px;
+    height: 70.36px;
+}
+
+.charmander {
+    background-color: #FB6C6C;
+}
+
+.box-one-power {
+    margin: 26px 0 45px 16px;
+}
+
+.box-one-power .padding {
+    padding: 6px 4.18px;
+    text-align: center;
+    background-color: #f48585;
+    border-radius: 38px;
+    font-size: 0.9rem;
+    width: 44.94px;
+    display: inline-block;
+}
+
+.charmander .number-position {
+    color: #DE5050;
+}
+
+.charmander img {
+    transform: rotateX(180deg);
+    transform: rotateY(180deg);
+    padding-left: 10px;
+    width: 62.71px;
+    height: 69px;
+}
+
+.Jigglypuff {
+    background-color: #F2CDD6;
+}
+
+.Jigglypuff p {
+    background-color: #F7DDE4;
+}
+
+.Jigglypuff .number-position {
+    color: #FB6C6C;
+}
+
+.mew {
+    background-color: #F2CDD6;
+}
+
+.mew .box-one-power {
+    margin: 26px 0 45px 0;
+}
+
+.mew .space-type-power {
+    background-color: #f7dde4;
+}
+
+.mew span.number-position {
+    margin: 0px 0 0 15px;
+    color: #DE5050;
+}
+
+.mew img {
+    width: 80px;
+    height: 81px;
+    transform: rotateX(180deg);
+    transform: rotateY(180deg);
+}
+
+.ralts {
+    background-color: #CE8083;
+}
+
+.ralts .box-one-power {
+    margin: 26px 0 45px 0;
+}
+
+.ralts .space-type-power {
+    background-color: #DE9A9D;
+}
+
+.ralts .number-position {
+    color: #9B4043;
+    margin: 0 0 0 15px;
+    display: block;
+}
+
+.ralts img {
+    width: 88px;
+    height: 83px;
+}
+
+.charmeleon {
+    background-color: #FB6C6C;
+}
+
+.charmeleon .space-type-power {
+    background-color: #F48585;
+}
+
+.charmeleon .number-position {
+    color: #DE5050;
+    margin-bottom: 10px;
+}
+
+.charmeleon img {
+    width: 70px;
+    height: 70px;
+}
+
+.squirtle {
+    background: linear-gradient(8.46deg, #4676A4 -0.58%, #46C5D7 108.38%);
+}
+
+.squirtle .space-type-power {
+    background-color: #8FD1FE;
+}
+
+.squirtle .number-position {
+    color: #4689C7;
+}
+
+.squirtle img {
+    width: 69px;
+    height: 71px;
+}
+
+.pikachu {
+    background-color: #FFCE4B;
+}
+
+.pikachu .space-type-power {
+    background-color: #FDE47F;
+}
+
+.pikachu .number-position {
+    color: #BF8400;
+    margin-bottom: 0;
+}
+
+.pikachu img {
+    width: 90px;
+    height: 84px;
+    transform: rotateX(180deg);
+    transform: rotateY(180deg);
+}
+
+.butterfree {
+    background-color: #A499C1;
+}
+
+.butterfree .box-two-power p {
+    background-color: #BCB0D4;
+}
+
+.butterfree .number-position {
+    color: #575176;
+    margin-bottom: 0;
+}
+
+.butterfree img {
+    width: 69px;
+    height: 71px;
+}
+
+.raichu {
+    background-color: #FFCE4B;
+}
+
+.raichu .space-type-power {
+    background-color: #FDE47F;
+}
+
+.raichu .number-position {
+    color: #BF8400;
+    margin-bottom: 0;
+    display: inline-block;
+    margin-left: 45px;
+}
+
+.raichu img {
+    width: 81px;
+    height: 76px;
+    margin-left: 15px;
+}
+
+.wartorfle {
+    background-color: #76BDFE;
+}
+
+.wartorfle .space-type-power {
+    background-color: #8FD1FE;
+}
+
+.wartorfle .number-position {
+    color: #4689C7;
+    margin-bottom: 0;
+}
+
+.wartorfle img {
+    width: 70px;
+    height: 70px;
+}
+
+.ivysaur {
+    background-color: #48D0B0;
+}
+
+.ivysaur .box-two-power p {
+    background-color: #7CE4D0;
+}
+
+.ivysaur .box-two-power {
+    margin: 20px 7px 25px 0;
+}
+
+.ivysaur .number-position {
+    color: #075976;
+    margin-bottom: 0;
+}
+
+.ivysaur img {
+    width: 70px;
+    height: 70px;
+}
+
+.charizard {
+    background-color: #FB6C6C;
+}
+
+.charizard .box-two-power p {
+    background-color: #F48585;
+}
+
+.charizard .number-position {
+    color: #DE5050;
+    margin-bottom: 0;
+}
+
+.charizard img {
+    width: 98.25;
+    height: 94px;
+}
+
+.blastoise {
+    background: #90C9FD;
+}
+
+.blastoise .space-type-power {
+    background-color: #A4D9FD;
+}
+
+.blastoise .number-position {
+    color: #4689C7;
+    margin-bottom: 0;
+}
+
+.blastoise img {
+    width: 76px;
+    height: 80px;
+}
+
+.gastly {
+    background-color: #888888;
+}
+
+.gastly .box-two-power {
+    margin: 23.75px 0;
+}
+
+.gastly .box-two-power p {
+    background-color: #A1A1A1;
+}
+
+.gastly .number-position {
+    color: #443E3D;
+    margin-bottom: 0;
+}
+
+.gastly img {
+    width: 77px;
+    height: 77px;
+}
+
+.turtwing {
+    background-color: #6BD8BF;
+}
+
+.turtwing .box-one-power {
+    margin: 20px 0 25px 0;
+}
+
+.turtwing .space-type-power {
+    background-color: #7CE4D0;
+}
+
+.turtwing .img-information-pokemons {
+    margin-left: 15px;
+}
+
+.turtwing .number-position {
+    color: #3E8570;
+    margin-bottom: 0;
+}
+
+.turtwing img {
+    width: 58px;
+    height: 77px;
+}
+
+.metapod {
+    background-color: #B6DE75;
+}
+
+.metapod .space-type-power {
+    background-color: #CBEA8E;
+}
+
+.metapod .number-position {
+    color: #87B347;
+    margin-bottom: 0;
+}
+
+.metapod img {
+    width: 70px;
+    height: 70px;
+}
+
+.venusaur {
+    background-color: #6BD8BF;
+}
+
+.venusaur .box-two-power {
+    margin: 20px 0 25px 0;
+}
+
+.venusaur .box-two-power p {
+    background-color: #7CE4D0;
+}
+
+.venusaur .number-position {
+    color: #075976;
+    margin-bottom: 0;
+}
+
+.venusaur img {
+    width: 70px;
+    height: 70px;
+}
