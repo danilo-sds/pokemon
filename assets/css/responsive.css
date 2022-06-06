@@ -57,6 +57,11 @@
     .box-pokemons:nth-child(even) {
         margin-right: 0;
     }
+    /*Modal*/
+    .container-pokemon-selected {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media screen and (max-width: 426px) {
