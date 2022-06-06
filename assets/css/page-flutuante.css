@@ -1,10 +1,3 @@
-body {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .container-pokemon-selected {
     display: flex;
 }
@@ -106,4 +99,34 @@ body {
 
 .power-name .power {
     width: 72px;
+}
+
+
+/**/
+
+.info-pokemon-selected .btn-closed {
+    color: #171414;
+    font-size: 2rem;
+    margin-right: 10px;
+    display: block;
+    cursor: pointer;
+}
+
+#pageFlutuante {
+    margin: 10% auto;
+}
+
+.number-power .box-number-power {
+    display: flex;
+    font-size: 1.4rem;
+    color: #444444;
+    margin-top: 14px;
+}
+
+.number-power .box-number-power p {
+    margin-right: 15px;
+}
+
+.number-power .box-number-power span {
+    color: #303943;
 }

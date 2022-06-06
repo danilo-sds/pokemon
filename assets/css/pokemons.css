@@ -324,6 +324,7 @@ h3 {
 
 .charizard {
     background-color: #FB6C6C;
+    cursor: pointer;
 }
 
 .charizard .box-two-power p {

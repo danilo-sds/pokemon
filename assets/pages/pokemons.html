@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/pokemons.css">
+    <link rel="stylesheet" href="../css/page-flutuante.css">
     <link rel="stylesheet" href="../css/responsive.css">
     <title>Pokemons</title>
 </head>
@@ -194,7 +195,7 @@
             </div>
             <div class="img-information-pokemons">
                 <span class="number-position">#005</span>
-                <img src="../img/pokemons/charizard.png" alt="Charizard">
+                <img src="../img/pokemons/charizard.png" alt="Charizard" id="updateDetails">
             </div>
         </div>
 
@@ -254,8 +255,73 @@
                 <img src="../img/pokemons/venusaur.png" alt="Venusaur">
             </div>
         </div>
-
     </section>
+
+    <!--Modal-->
+    <dialog id="pageFlutuante">
+        <section class="container-pokemon-selected">
+            <div class="img-pokemon-selected">
+                <img src="../img/pokemons/charizard.png" alt="">
+                <div class="power-pokemon-selected">
+                    <p class="space-power">Fogo</p>
+                    <p class="space-power">Voador</p>
+                </div>
+            </div>
+            <div class="box-info-selected">
+                <div class="info-pokemon-selected">
+                    <div>
+                        <h2>Charizard</h2>
+                        <p>Charizard é um Pokémon bípede dracônico . É principalmente laranja com uma parte inferior creme do peito até a ponta da cauda. </p>
+                    </div>
+                    <span id="closeModal" class="btn-closed">X</span>
+                    <div class="number-position-pokemon-selected">
+
+                        <span>#005</span>
+                    </div>
+                </div>
+                <div class="box-information-body-pokemon">
+                    <div>
+                        <span><img src="../img/icons/weight-scale-solid.svg" alt=""> 90.5 kg</span>
+                        <p>Peso</p>
+                    </div>
+
+                    <hr>
+
+                    <div>
+                        <span><img src="../img/icons/ruler-vertical-solid.svg " alt=" "> 1.7 m</span>
+                        <p>Altura</p>
+                    </div>
+
+                    <hr>
+
+                    <div>
+                        <span>Lança chamas</span>
+                        <p>Poder Principal</p>
+                    </div>
+                </div>
+                <div class="number-power">
+                    <div class="box-number-power">
+                        <p>Ataque</p>
+                        <span>84</span>
+                    </div>
+                    <div class="box-number-power">
+                        <p>Defesa</p>
+                        <span>78</span>
+                    </div>
+                    <div class="box-number-power">
+                        <p>VI.Ataque</p>
+                        <span>109</span>
+                    </div>
+                    <div class="box-number-power">
+                        <p>total</p>
+                        <span>271</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </dialog>
+
+    <script src="../js/script.js"></script>
 </body>
 
 </html>
